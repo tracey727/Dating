@@ -1,4 +1,4 @@
-import Link from "next/link";
+ import Link from "next/link";
 
 const features = [
   ["01","Verify first","18+ identity verification before a profile can enter discovery. Verification status is visible; raw identity documents are not."],

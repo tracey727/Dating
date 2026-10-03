@@ -35,13 +35,13 @@ Those integrations require contracts, credentials, webhooks, legal/privacy revie
    npm run dev
 4. Open http://localhost:3000
 
-## Vercel
-- Create a GitHub repository and upload this folder.
-- Import the repository into Vercel.
-- Framework: Next.js
-- Add DATABASE_URL from Neon.
-- Keep identity/payment provider secrets out of GitHub.
-- Run db/schema.sql against the Neon database after review.
+## Deployment status
+
+**Migration required before a live production deployment.**
+
+This Next.js foundation was originally documented for Vercel, but ON TRACK by TRACE now uses GitHub + Cloudflare + Neon. No Cloudflare/OpenNext runtime has been verified for this repository yet.
+
+Do not connect a new Vercel deployment and do not claim this build is Cloudflare-production-ready until the runtime migration, Neon connectivity, identity/payment providers, privacy/security controls and release gates have been implemented and tested.
 
 ## Pricing built into V1
 - Free — A$0
